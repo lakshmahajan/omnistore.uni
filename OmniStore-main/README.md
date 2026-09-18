@@ -97,7 +97,7 @@ java -cp bin com.omnistore.Main
 ## Simulation & Output Demonstration
 
 Upon running `Main.java`, the system:
-1. Registers catalog items (`PROD-100` through `PROD-400`) and regional hubs (New York, Chicago, Los Angeles, Dallas).
+1. Registers catalog items (`PROD-100` through `PROD-400`) and regional hubs (New York, Chicago, Los Angeles, Dallas)
 2. Sets initial inventory balances and threshold limits across nodes.
 3. Fires 20+ concurrent customer orders across an 8-thread worker pool.
 4. Triggers real-time alerts when stock drops below configured safety thresholds:
